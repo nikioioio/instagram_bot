@@ -38,9 +38,8 @@ class instagram:
         for key in self.default_attr:
             if key in allowed_attr:
                 self.__dict__[key] = self.default_attr.get(key)
-        self.instaloader = instaloader.Instaloader()
-        print(self.default_attr['login_user'])
-        self.instaloader.login(self.default_attr['login_user'], self.default_attr['login_pass'])
+        # self.instaloader = instaloader.Instaloader()
+        # self.instaloader.login(self.default_attr['login_user'], self.default_attr['login_pass'])
         self.session = requests.Session()
         self.session.headers = {'user-agent': CHROME_WIN_UA}
         self.cookiejar = None
@@ -158,9 +157,9 @@ class instagram:
 
 
 
+
 login = os.environ.get('LOGIN')
 password = os.environ.get('PASSWORD')
-
 
 a = instagram(login_user = login,login_pass = password)
 a.authenticate_with_login()
