@@ -39,6 +39,7 @@ class instagram:
             if key in allowed_attr:
                 self.__dict__[key] = self.default_attr.get(key)
         self.instaloader = instaloader.Instaloader()
+        print(self.default_attr['login_user'])
         self.instaloader.login(self.default_attr['login_user'], self.default_attr['login_pass'])
         self.session = requests.Session()
         self.session.headers = {'user-agent': CHROME_WIN_UA}
