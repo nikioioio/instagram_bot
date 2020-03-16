@@ -159,7 +159,7 @@ class instagram:
 
 login = os.environ.get('LOGIN')
 password = os.environ.get('PASSWORD')
-print(login)
+
 
 a = instagram(login_user = login,login_pass = password)
 a.authenticate_with_login()
