@@ -161,7 +161,7 @@ class instagram:
 login = os.environ.get('LOGIN')
 password = os.environ.get('PASSWORD')
 
-# a = instagram(login_user = 'python_school_ukg',login_pass = 'f292twmmwt292f')
+
 a = instagram(login_user = login,login_pass = password)
 a.authenticate_with_login()
 a.set_likes(['pod_nebom_ukg'])

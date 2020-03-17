@@ -53,11 +53,10 @@
       <file leaf-file-name="insta.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/insta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-939">
-              <caret line="99" column="77" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="77" />
+            <state relative-caret-position="149">
+              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
-                <marker date="1584412582089" expanded="true" signature="7222:7293" ph="..." />
               </folding>
             </state>
           </provider>
@@ -120,8 +119,8 @@
       <find>default_attr</find>
       <find>sleep</find>
       <find>a1</find>
-      <find>MAX_RETRY_DELAY</find>
       <find>times_sleep1</find>
+      <find>MAX_RETRY_DELAY</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -446,13 +445,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/instaloader/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/insta.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-939">
-          <caret line="99" column="77" selection-start-line="99" selection-start-column="75" selection-end-line="99" selection-end-column="77" />
+        <state relative-caret-position="149">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
-            <marker date="1584412582089" expanded="true" signature="7222:7293" ph="..." />
           </folding>
         </state>
       </provider>
